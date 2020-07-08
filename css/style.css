@@ -1,0 +1,284 @@
+/*-----Import Fonts-------*/
+@font-face {
+  font-family: roboto_regular;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: poppins_bold;
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: poppins_regular;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: poppins_medium;
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+
+/*---------body-----------------*/
+
+/*------------Navigation Bar------------*/
+#logo {
+  width: 160px;
+  height: 59x;
+}
+
+.navbar {
+  padding: 1rem 0rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  font-family: poppins_regular;
+  font-size: 14px;
+  color: #000000;
+}
+
+
+.custom_button {
+  border-radius: 17px;
+  padding: 3px 30px;
+  color: #ffffff !important;
+  margin-top: 5px;
+  font-size: 14px;
+  font-family: roboto_regular !important;
+  background-color: #21B573;
+}
+
+/*--------------Header-------------*/
+
+header {
+  padding-top: 20px;
+}
+
+header h6 {
+  color: #FD511A;
+  font-size: 12px;
+}
+
+header h1 {
+  font-family: poppins_bold;
+  font-size: 32px;
+}
+
+header h1 span {
+  color: #21B573;
+
+}
+
+button {
+  border: none;
+}
+
+/*Nav & header background*/
+.main_bg {
+  background-color: #F0FFF0;
+  padding-bottom: 40px;
+}
+
+/*--------School Info--------*/
+.school_info {
+  padding: 30px 0px;
+}
+
+.center {
+  height: 200px;
+  position: relative;
+  background-color: #F8FFFB;
+  border-radius: 10px;
+  /*border: 5px solid red;*/
+
+}
+
+.info_module {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.activeted {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.info_module img {
+  width: 40%;
+
+}
+
+.info_module h5 {
+  color: #413960;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.info_module p {
+  font-size: 14px;
+
+}
+
+/*------------Online Courses-----------*/
+.online_courses{
+  padding-top:30px;
+  margin-top: 20px;
+}
+h2{
+  color: #413960;
+  font-family: poppins_bold;
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+
+}
+.card{
+  padding: 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  border: none;
+}
+
+.card-title{
+  color: #413960;
+  font-family: poppins_medium;
+  font-size:15px;
+}
+.card-text{
+  color:#585859;
+  font-family: poppins_regular;
+  font-size:12px;
+}
+
+.card-footer{
+  border: none;
+  background-color: #ffffff;
+}
+.card-footer img{
+  width:20%;
+}
+
+/*-------------Testimonial-------------*/
+.testimonial{
+  padding-top: 40px;
+  margin-top: 20px;
+}
+.centerize img{
+  width: 100%;
+}
+.testimonial p{
+  font-size: 14px;
+  font-family: poppins_regular;
+}
+
+
+/*------------FAQ--------*/
+.faQ{
+  margin-top: 50px;
+}
+.faQ_body{
+
+  background-color: rgba(0,0,0,.03);
+}
+
+.faQ_card{
+  box-shadow: none;
+  padding: 0px;
+}
+
+.faQ_header{
+ background-color: #ffffff;
+}
+
+.btn:focus{
+  box-shadow: none;
+  background-color:  #21B573;
+}
+
+.faQ img{
+  width: 70%;
+}
+/*---------------Footer---------------------*/
+footer{
+  padding:40px 40px 10px 40px;
+  background-color: #282531;
+  margin-top: 60px;
+}
+
+footer p{
+  color: #ffffff;
+  font-size: 13px;
+  font-family: poppins_regular;
+}
+
+footer h6{
+  color: #ffffff;
+}
+
+a{
+ text-decoration: none !important;
+ color: #ffffff;
+}
+
+/*-------------Media Queries------------*/
+
+@media (max-width: 575.98px) { 
+footer h6{
+  color: #21B573;
+}
+
+.centerize img {
+  width:50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+  .centerize img {
+    width:40%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    
+ }
+
+ .center {
+  height: 220px;
+  position: relative;
+  background-color: #F8FFFB;
+  border-radius: 10px;
+ 
+}
+footer h6{
+  color: #21B573;
+}
+
+
+
+
+
+}
